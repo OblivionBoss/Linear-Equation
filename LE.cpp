@@ -55,7 +55,7 @@ void solve(double coeff[10][10],double val[10],double ans[10],int n){ // main so
     if(maindet != 0){ // have solution
         cout << "\nThere is the solution to the equation! :D\n";
         for(int i = 0; i < n; i++){
-           cout << "The value of variable[" << i+1 << "] is " << ans[i] << "\n";
+           cout << "The value of variable[" << i+1 << "] is " << ph[i] << "/" << maindet << " or " << ans[i] << "\n";
         }
     }
     else{ // no value
